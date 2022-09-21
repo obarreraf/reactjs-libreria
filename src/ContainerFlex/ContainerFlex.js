@@ -49,4 +49,4 @@ ContainerFlex.propTypes = {
     gap: PropTypes.string
 }
 
-export default ContainerFlex
+export default ContainerFlex;
