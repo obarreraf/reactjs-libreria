@@ -1,0 +1,4 @@
+"use strict";var _interopRequireDefault=require("@babel/runtime/helpers/interopRequireDefault"),_react=require("@testing-library/react");require("@testing-library/jest-dom");var _MediaImg=_interopRequireDefault(require("./MediaImg")),_jsxRuntime=require("react/jsx-runtime");describe("@components/MediaImg",function(){it("Prueba de Imagen",function(){//arrange
+var a=(0,_react.render)(/*#__PURE__*/(0,_jsxRuntime.jsx)(_MediaImg["default"],{alt:"TituloImg",src:"http://www.cool.com/img"})),b=a.getByRole,c=b("img");//act
+//assert
+expect(c).toBeInTheDocument(),expect(c).toHaveAttribute("src","http://www.cool.com/img"),expect(c).toHaveAttribute("alt","TituloImg")})});
