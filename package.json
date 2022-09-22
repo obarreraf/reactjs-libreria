@@ -18,7 +18,8 @@
   "author": "Orangel Barrera",
   "license": "ISC",
   "dependencies": {
-    "@emotion/css": "^11.10.0"
+    "@emotion/css": "^11.10.0",
+    "prop-types": "^15.8.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
