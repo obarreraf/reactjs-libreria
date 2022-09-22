@@ -1,6 +1,6 @@
-import { forwardRef } from "react";
-import { cx, css } from "@emotion/css";
-import { PropTypes } from "prop-types"
+import { forwardRef } from 'react'
+import { cx, css } from '@emotion/css'
+import { PropTypes } from 'prop-types'
 
 const MediaImgStyles = (width, height, borderRadius) => css`
   width: ${width || "100px"};
