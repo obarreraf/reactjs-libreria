@@ -1,6 +1,6 @@
 {
   "name": "reactlibreria",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Libreria UI de Componentes reactjs",
   "main": "./dist/index.js",
   "scripts": {
